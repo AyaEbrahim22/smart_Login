@@ -1,0 +1,47 @@
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(90 4 156 / 49%) 0% 100%) ,url(../imgs/bg.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.parent .content{
+    background-color: #a34af630;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 17%;
+    left: 25%;
+}
+.parent .content h1{
+    color: rgb(253 253 253 / 84%);
+}
+.parent .content input{
+    background-color: transparent;
+    color: white;
+}
+.parent .content input:focus{
+    box-shadow: none;
+    border-color: white;
+}
+.parent .content input::placeholder{
+   color: white;
+}
+.parent .content .text-color{
+    color: rgb(184, 107, 255);
+}
+.parent .content button{
+    color: white;
+}
+.parent .content p{
+    color: white;
+}
+
+.parent .content p a{
+    color: white;
+    text-decoration: none;
+}
+.parent .content p a:hover{
+    text-decoration: underline;
+}

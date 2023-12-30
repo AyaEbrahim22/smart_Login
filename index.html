@@ -1,0 +1,47 @@
+<!-------Login Page------->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="icon" href="imgs/icon.png">
+    <title>Login</title>
+    <!----------Bootstrap file------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!----------Css file------------->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div class="content w-50 text-center m-auto p-4">
+            <div class="container">
+                <h1 class="pt-3 pb-3">Smart Login System</h1>
+
+                <input id="inputEmail" class="form-control my-3" type="email" placeholder="Enter your email">
+
+                <input id="inputPassword" class="form-control my-3" type="password" placeholder="Enter your password">
+
+                <h5 id="allInputsRequiredAlert" class="text-color d-none">All inputs is required</h5>
+
+                <h5 id="incorrectAlert" class="text-color d-none">incorrect email or password</h5>
+
+                <button id="loginBtn" class="btn btn-outline-primary mt-3 mb-3 w-100">Login</button>
+
+                <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>

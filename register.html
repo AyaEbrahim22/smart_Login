@@ -1,0 +1,58 @@
+<!-------Register Page------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="imgs/icon.png">
+    <title>register</title>
+    <!----------Bootstrap file------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!----------Css file------------->
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div class="content w-50 text-center m-auto p-4">
+            <div class="container">
+                <h1 class="pt-3 pb-3">Smart Login System</h1>
+
+                <input class="form-control my-3" type="text" name="name" placeholder="Enter your name" id="inputName" autocomplete="off">
+
+                <input class="form-control my-3" type="email" name="email" placeholder="Enter your email" id="inputEmail" autocomplete="off">
+
+                <input class="form-control my-3" type="password" name="password" placeholder="Enter your password" id="inputPassword">
+
+                <h5 id="allInputsRequiredAlert" class="text-color d-none">All inputs is required</h5>
+
+                <h5 id="emailExistsAlert" class="text-color d-none">email already exists</h5>
+
+                <h5 id="successAlert" class="text-color d-none">Success</h5>
+
+                <h5 id="validName" class="text-color d-none">Your name should be more than 3 characters and less than 10!</h5>
+
+                <h5 id="validEmail" class="text-color d-none">Please include an '@' in your email address!</h5>
+
+                <h5 id="validPassword" class="text-color d-none">Your password should be between 4 and 6 characters!</h5>
+
+                <button class="btn btn-outline-primary mt-3 mb-3 w-100" id="registerBtn">Sign Up</button>
+
+                <p>You have an account? <a href="index.html">Sign in</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/register.js"></script>
+</body>
+
+</html>

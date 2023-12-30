@@ -1,0 +1,30 @@
+::selection{
+    color: #985fcc;
+}
+body{
+    background-color: #985fcc;
+    height: 100vh;
+}
+.navbar{
+    background-color: #7339a98f;
+    box-shadow: 0px 0px 29px -4px rgb(94 56 113);
+}
+.navbar .logBtn{
+    color: #fff;
+    border: 1px solid #FFD1E3;
+}
+.navbar .logBtn:hover{
+    color: #985fcc;
+    background-color: #FFD1E3;
+}
+.content{
+    border-radius: 6px;
+    box-shadow: 0px 0px 24px -11px rgb(7 1 10);
+    color: white;
+    width: fit-content;
+    padding: 40px 110px;
+    background-color: #712faf;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
